@@ -40,14 +40,14 @@ export default function RootLayout({
       {/* Google Analytics */}
       <Script
         strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-M4XBTKYGCQ`}
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'YOUR_TRACKING_ID');
+          gtag('config', 'G-M4XBTKYGCQ');
         `}
       </Script>
     </html>
