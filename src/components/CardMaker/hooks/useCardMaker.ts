@@ -92,7 +92,7 @@ export default function useCardMaker({ imageRef }: UseCardMaker) {
       ).map((e) => e.en)}`;
 
       const response = await openai.images.generate({
-        model: "dall-e-2",
+        model: "dall-e-3",
         prompt,
         n: 1,
         quality: "standard",

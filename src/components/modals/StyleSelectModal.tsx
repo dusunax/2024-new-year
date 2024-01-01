@@ -47,6 +47,11 @@ export default function StyleSelectModal({
         <br />
         <p>생성된 카드는 저장하거나 친구들과 공유할 수 있어요! 💾📤</p>
         <p>이제 시작해볼까요? ✨</p>
+        <hr />
+        <p>
+          모바일 환경에서는 카카오톡 링크로 접근 시, 카드 다운로드가 실패하는
+          버그가 있습니다(크롬으로 접속 부탁드려요🥹)
+        </p>
       </Modal>
 
       <Button type="primary" onClick={showModal} className="w-full">
