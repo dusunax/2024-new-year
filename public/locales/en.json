@@ -1,0 +1,10 @@
+{
+  "button": {
+    "start": "Start"
+  },
+  "messages": {},
+  "cardStyles": {
+    "selectionTitle": "Select Card Style",
+    "confirmButton": "Confirm Selection"
+  }
+}

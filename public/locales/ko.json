@@ -1,0 +1,14 @@
+{
+  "button": {
+    "start": "시작하기"
+  },
+  "messages": {},
+  "cardStyles": {
+    "selectionTitle": "카드 스타일 선택",
+    "confirmButton": "선택 완료"
+  },
+  "cardMessageInput": {
+    "selectionTitle": "메시지 입력",
+    "randomMessageButton": "랜덤 메시지"
+  }
+}
