@@ -17,14 +17,18 @@ export default function CardImageGenerator({
     <Card title="카드 이미지 생성 🎨" className="w-full">
       <div className="flex flex-col justify-center gap-4">
         <div className="flex min-h-10 flex-wrap justify-center">
-          {Array.from(selectedStyles).map((style) => (
+          {Array.from(selectedStyles).map((style, idx) => (
             <Button
               key={style.en}
               type="primary"
-              style={{ margin: "4px", fontSize: "xx-small" }}
+              style={{
+                margin: "4px",
+                fontSize: "xx-small",
+                animationDelay: `${idx % 2 === 0 ? "0" : "0.5s"}`,
+              }}
               size="small"
               className={`pointer-events-none ${
-                loading ? "animate-pulse" : ""
+                loading ? "animate-bounce" : ""
               }`}
             >
               {style.ko}

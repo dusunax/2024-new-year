@@ -91,6 +91,12 @@ export default function useCardMaker({ imageRef }: UseCardMaker) {
         selectedStyles
       ).map((e) => e.en)}`;
 
+      notification.info({
+        message: "잠시만 기다려주세요🥰",
+        closeIcon: null,
+        duration: 2,
+      });
+
       const response = await openai.images.generate({
         model: "dall-e-3",
         prompt,
