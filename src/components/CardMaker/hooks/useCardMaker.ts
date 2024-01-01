@@ -87,7 +87,7 @@ export default function useCardMaker({ imageRef }: UseCardMaker) {
     setLoading(true);
 
     try {
-      const prompt = `2024 new years, text "2024", a asian dragon, confetti, ${Array.from(
+      const prompt = `2024 new years, text "2024", a blue asian dragon, confetti, ${Array.from(
         selectedStyles
       ).map((e) => e.en)}`;
 
