@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "🐉 2024 신년 카드 만들기",
     images: [
       {
-        url: "https://2024-new-year.vercel.app/banner_1.png",
+        url: "https://2024-new-year.vercel.app/image/banner_1.png",
       },
     ],
   },
