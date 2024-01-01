@@ -11,6 +11,24 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "🐉 2024 신년 카드 만들기",
   description: "hello, 2024!",
+  manifest: "https://2024-new-year.vercel.app/manifest.json",
+  icons: {
+    icon: "https://2024-new-year.vercel.app/icon/favicon-32x32.png",
+    apple: "https://2024-new-year.vercel.app/icon/apple-touch-icon.png",
+  },
+  keywords: ["2024", "new-year"],
+  openGraph: {
+    type: "website",
+    url: "https://2024-new-year.vercel.app/card",
+    title: "🐉 2024 신년 카드 만들기",
+    description: "hello, 2024!",
+    siteName: "🐉 2024 신년 카드 만들기",
+    images: [
+      {
+        url: "https://2024-new-year.vercel.app/banner_1.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
