@@ -1,8 +1,6 @@
-## 신년 카드 메이커
+## 2024 신년 카드 메이커
 
-> 작업 기간: 약 2일 (12월 24일, 1월 1일 7~12시)  
-> 사용: nextJS, open API, antd, tailwindcss, vercel  
-> 미완성: i18n
+> NextJS, Open API(dall e 3), Antd, Tailwindcss, Vercel  
 
 <image src="https://github.com/dusunax/2024-new-year/assets/94776135/08c73145-e742-4ff5-9be5-ba174be65d0d" width="500px" />
 <br />
